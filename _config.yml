@@ -7,8 +7,10 @@ title: FreMaNgo
 subtitle:
 description:
 author: FreMaNgo
-language:
+language: zh-Hans
 timezone:
+avatar: /uploads/avatar.png
+since: 2015
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -63,7 +65,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
