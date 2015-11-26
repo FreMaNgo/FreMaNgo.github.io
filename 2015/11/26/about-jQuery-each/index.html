@@ -35,7 +35,7 @@
 <link href="/css/main.css?v=0.4.5.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="git," />
+  <meta name="keywords" content="each,jQuery," />
 
 
 
@@ -51,28 +51,28 @@
 
 
 
-<meta name="description" content="git checkout &amp;lt;name&amp;gt;: 切换分支
-git branch &amp;lt;name&amp;gt;: 新建本地分支
-git branch [-a]: 查看本地分支和远程分支 
-git checkout -b &amp;lt;name&amp;gt;: 新建并切换分支
-git branch -D &amp;lt;name&amp;gt;: 删除本地分支">
+<meta name="description" content="2015-11-26 
+
+each函数不能用break和contiune跳出循环可以使用return true和return false跳出，和for中跳出循环对比：
+each:return true === for: continue
+each:return false === for: break">
 <meta property="og:type" content="article">
-<meta property="og:title" content="git的一些命令总结">
-<meta property="og:url" content="http://yoursite.com/2015/11/26/learn-git/index.html">
+<meta property="og:title" content="有关jQuery里.each()的用法和使用技巧">
+<meta property="og:url" content="http://yoursite.com/2015/11/26/about-jQuery-each/index.html">
 <meta property="og:site_name" content="FreMaNgo">
-<meta property="og:description" content="git checkout &amp;lt;name&amp;gt;: 切换分支
-git branch &amp;lt;name&amp;gt;: 新建本地分支
-git branch [-a]: 查看本地分支和远程分支 
-git checkout -b &amp;lt;name&amp;gt;: 新建并切换分支
-git branch -D &amp;lt;name&amp;gt;: 删除本地分支">
-<meta property="og:updated_time" content="2015-11-26T01:36:01.000Z">
+<meta property="og:description" content="2015-11-26 
+
+each函数不能用break和contiune跳出循环可以使用return true和return false跳出，和for中跳出循环对比：
+each:return true === for: continue
+each:return false === for: break">
+<meta property="og:updated_time" content="2015-11-26T09:59:41.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="git的一些命令总结">
-<meta name="twitter:description" content="git checkout &amp;lt;name&amp;gt;: 切换分支
-git branch &amp;lt;name&amp;gt;: 新建本地分支
-git branch [-a]: 查看本地分支和远程分支 
-git checkout -b &amp;lt;name&amp;gt;: 新建并切换分支
-git branch -D &amp;lt;name&amp;gt;: 删除本地分支">
+<meta name="twitter:title" content="有关jQuery里.each()的用法和使用技巧">
+<meta name="twitter:description" content="2015-11-26 
+
+each函数不能用break和contiune跳出循环可以使用return true和return false跳出，和for中跳出循环对比：
+each:return true === for: continue
+each:return false === for: break">
 
 
 
@@ -84,7 +84,7 @@ git branch -D &amp;lt;name&amp;gt;: 删除本地分支">
   };
 </script>
 
-  <title> git的一些命令总结 | FreMaNgo </title>
+  <title> 有关jQuery里.each()的用法和使用技巧 | FreMaNgo </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -214,7 +214,7 @@ git branch -D &amp;lt;name&amp;gt;: 删除本地分支">
             
             
               
-                git的一些命令总结
+                有关jQuery里.each()的用法和使用技巧
               
             
           </h1>
@@ -223,7 +223,7 @@ git branch -D &amp;lt;name&amp;gt;: 删除本地分支">
         <div class="post-meta">
           <span class="post-time">
             发表于
-            <time itemprop="dateCreated" datetime="2015-11-26T09:16:56+08:00" content="2015-11-26">
+            <time itemprop="dateCreated" datetime="2015-11-26T17:53:18+08:00" content="2015-11-26">
               2015-11-26
             </time>
           </span>
@@ -234,8 +234,8 @@ git branch -D &amp;lt;name&amp;gt;: 删除本地分支">
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2015/11/26/learn-git/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/11/26/learn-git/" itemprop="commentsCount"></span>
+                <a href="/2015/11/26/about-jQuery-each/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/11/26/about-jQuery-each/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -254,13 +254,12 @@ git branch -D &amp;lt;name&amp;gt;: 删除本地分支">
       
 
       
-        <span itemprop="articleBody"><ol>
-<li><code>git checkout &lt;name&gt;</code>: 切换分支</li>
-<li><code>git branch &lt;name&gt;</code>: 新建本地分支</li>
-<li><code>git branch [-a]</code>: 查看本地分支和远程分支 </li>
-<li><code>git checkout -b &lt;name&gt;</code>: 新建并切换分支</li>
-<li><code>git branch -D &lt;name&gt;</code>: 删除本地分支</li>
-</ol>
+        <span itemprop="articleBody"><blockquote>
+<p><code>2015-11-26</code> </p>
+</blockquote>
+<h3 id="each函数不能用break和contiune跳出循环">each函数不能用break和contiune跳出循环</h3><p>可以使用<code>return true</code>和<code>return false</code>跳出，和for中跳出循环对比：</p>
+<p>each:<code>return true</code> === for: <code>continue</code></p>
+<p>each:<code>return false</code> === for: <code>break</code></p>
 </span>
       
     </div>
@@ -269,7 +268,9 @@ git branch -D &amp;lt;name&amp;gt;: 删除本地分支">
       
         <div class="post-tags">
           
-            <a href="/tags/git/" rel="tag">#git</a>
+            <a href="/tags/each/" rel="tag">#each</a>
+          
+            <a href="/tags/jQuery/" rel="tag">#jQuery</a>
           
         </div>
       
@@ -278,17 +279,13 @@ git branch -D &amp;lt;name&amp;gt;: 删除本地分支">
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2015/11/25/learn/" rel="next" title="前端学习的一些网站总结">
-                <i class="fa fa-chevron-left"></i> 前端学习的一些网站总结
+              <a href="/2015/11/26/learn-git/" rel="next" title="git的一些命令总结">
+                <i class="fa fa-chevron-left"></i> git的一些命令总结
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2015/11/26/about-jQuery-each/" rel="prev" title="有关jQuery里.each()的用法和使用技巧">
-                有关jQuery里.each()的用法和使用技巧 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -315,8 +312,8 @@ git branch -D &amp;lt;name&amp;gt;: 删除本地分支">
         
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2015/11/26/learn-git/"
-           data-title="git的一些命令总结" data-url="http://yoursite.com/2015/11/26/learn-git/">
+      <div class="ds-thread" data-thread-key="2015/11/26/about-jQuery-each/"
+           data-title="有关jQuery里.each()的用法和使用技巧" data-url="http://yoursite.com/2015/11/26/about-jQuery-each/">
       </div>
     
   </div>
@@ -406,7 +403,7 @@ git branch -D &amp;lt;name&amp;gt;: 删除本地分支">
               
             
             
-              <p class="post-toc-empty">此文章未包含目录</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#each函数不能用break和contiune跳出循环"><span class="nav-number">1.</span> <span class="nav-text">each函数不能用break和contiune跳出循环</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">
