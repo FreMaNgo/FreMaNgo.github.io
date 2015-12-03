@@ -66,7 +66,7 @@ start: Unable to connect to Upstart: Failed to connect">
 stop: Unable to connect to Upstart: Failed to connect to socket /com/ubuntu/upstart: Connection refused
 start: Unable to connect to Upstart: Failed to connect">
 <meta property="og:image" content="http://yoursite.com/uploads/error1.png">
-<meta property="og:updated_time" content="2015-12-03T17:04:32.000Z">
+<meta property="og:updated_time" content="2015-12-03T17:06:11.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="在处理时有错误发生:runit解决办法">
 <meta name="twitter:description" content="在安装git的时候出现在处理时有错误发生:runit这个错误，如图：
@@ -260,11 +260,8 @@ start: Unable to connect to Upstart: Failed to connect">
 <p>还有报错：</p>
 <p><code>stop: Unable to connect to Upstart: Failed to connect to socket /com/ubuntu/upstart: Connection refused</code></p>
 <p><code>start: Unable to connect to Upstart: Failed to connect to socket /com/ubuntu/upstart: Connection refused</code></p>
-<p>解决办法：</p>
-<ol>
-<li><code>dpkg-divert --local --rename --add /sbin/initctl</code></li>
-<li><code>ln -s /bin/true /sbin/initctl</code></li>
-</ol>
+<p>解决办法:</p>
+<figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">dpkg-divert --local --rename --add <span class="regexp">/sbin/i</span>nitctl</span><br><span class="line">ln -s <span class="regexp">/bin/</span><span class="keyword">true</span> <span class="regexp">/sbin/i</span>nitctl</span><br></pre></td></tr></table></figure>
 <p>再重新运行之前的代码，就不会出错了.</p>
 </span>
       
