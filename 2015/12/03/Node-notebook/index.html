@@ -73,7 +73,7 @@ node -e &amp;quot;console.log(&amp;#39;hello world!&amp;#39;)&amp;quot;
 使用 node 的 REPL 模式直接在终端输入node即可进入REPL，会出现一个&amp;gt;大于号，此时可以输入代码。
 连续按两次ctrl + c退出REPL模式
 使用surpervistor实时更新nod">
-<meta property="og:updated_time" content="2015-12-03T08:42:10.000Z">
+<meta property="og:updated_time" content="2015-12-03T08:54:47.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Nodejs 学习笔记">
 <meta name="twitter:description" content="2015-12-03更新
@@ -284,7 +284,7 @@ node -e &amp;quot;console.log(&amp;#39;hello world!&amp;#39;)&amp;quot;
 <figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">finished</span><br><span class="line"><span class="type">file</span>.txt <span class="property">contents</span></span><br></pre></td></tr></table></figure>
 <p><strong>为什么先输出<code>finished</code>？</strong></p>
 <p>因为异步操作的时候，运行<code>fs.readFile</code>之后就立即运行后面的<code>console.log(&#39;finished&#39;)</code>函数了，不会等到<code>fs.readFile</code>内的回调函数运行完成再运行它后面的语句。</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">st=&#62;start: Start:&#62;https://www.zybuluo.com&#10;io=&#62;inputoutput: verification&#10;op=&#62;operation: Your Operation&#10;cond=&#62;condition: Yes or No?&#10;sub=&#62;subroutine: Your Subroutine&#10;e=&#62;end&#10;&#10;st-&#62;io-&#62;op-&#62;cond&#10;cond(yes)-&#62;e&#10;cond(no)-&#62;sub-&#62;io</span><br></pre></td></tr></table></figure></span>
+</span>
       
     </div>
 
